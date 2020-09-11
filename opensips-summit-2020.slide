@@ -11,7 +11,9 @@ Tags: opensips, sip, async, rtp, rtpengine
 
 - [[https://www.opensips.org/Documentation/Script-Async-2-1][Introduced in OpenSIPS 2.1]]
 - Not widely used
-- Not really well documented
+- People unaware
+- Not well documented (for developers)
+- Has limitations
 - [[https://www.opensips.org/Documentation/Script-Async-3-1][I'll talk about ver. 3.1]]
 
 * async in c code
