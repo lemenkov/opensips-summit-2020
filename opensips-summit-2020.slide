@@ -1,0 +1,61 @@
+Async API in OpenSIPS
+11 Sep 2020
+Tags: opensips, sip, async, rtp, rtpengine
+
+- Peter Lemenkov
+- [[https://github.com/lemenkov][https://github.com/lemenkov]]
+- [[https://github.com/lemenkov/opensips-summit-2020][https://github.com/lemenkov/opensips-summit-2020]]
+
+
+* Introduction
+
+- [[https://www.opensips.org/Documentation/Script-Async-2-1][Introduced in OpenSIPS 2.1]]
+- Not widely used
+- Not really well documented
+- [[https://www.opensips.org/Documentation/Script-Async-3-1][I'll talk about ver. 3.1]]
+
+* async in c code
+
+.image img/screenshot04.png _ 700
+
+* async in c code (cont.)
+
+.image img/screenshot05.png _ 700
+
+* async in c code (cont. next one)
+
+.image img/screenshot06.png _ 700
+
+* async in config
+
+.image img/screenshot01.png _ 700
+
+* async in config (cont.)
+
+.image img/screenshot09.png _ _
+
+* Issues
+
+.image img/screenshot02.png _ 700
+
+* Issues (cont.)
+
+.image img/screenshot03.png _ 700
+
+* Issues
+
+- Sometimes very fragile
+- Read logs *carefully* (I mean it)
+
+.image img/screenshot07.png _ _
+
+* Issues (cont.)
+
+- Read logs *really* *really* *carefully*
+
+.image img/screenshot08.png _ _
+
+* Conclusion
+
+- Go and use it!
+- Very careful testing reuired
